@@ -1,0 +1,32 @@
+.container {
+    min-height: 300px;
+    max-height: 90vh;
+    margin: 30px auto;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    button{
+        border-radius: 0 10px 10px 0 !important;
+    }
+}
+@media (max-width: 600px) {
+    .group{
+        flex-wrap: wrap;
+        button{
+            border-radius: 10px !important;
+        }
+    }
+    footer {
+        grid-template-columns: 1fr;
+        button{
+            border-radius: 10px !important;
+        }
+        input{
+            border-radius: 10px !important;
+            width: 100% !important;
+        }
+    }
+    
+}
