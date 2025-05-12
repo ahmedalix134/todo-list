@@ -78,7 +78,7 @@ if(displayedType==="done"){
 
     
   return (
-    <div className='container w-50 max-vh-90 bg-black p-2 flex-column justify-between gap-3 rounded-4'>
+    <div className='todo-container  max-vh-90 bg-black p-2 flex-column justify-between gap-3 rounded-4 '>
         <header className='d-flex flex-column align-items-center gap-4 text-white'>
             <h1>My Todos</h1>
             <ButtonGroup className='group'  aria-label="Basic example">
